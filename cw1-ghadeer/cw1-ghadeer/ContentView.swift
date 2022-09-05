@@ -13,6 +13,7 @@ struct ContentView: View {
             Image("img")
                 .resizable()
                 .scaledToFill()
+                .ignoresSafeArea()
             
             VStack{
                 //Spacer()
